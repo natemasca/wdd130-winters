@@ -1,0 +1,23 @@
+#nav1 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: "Parisienne";
+    text-size-adjust: 500px;
+    
+}
+
+#nav1 a{
+    padding: 40px;
+    border-right-color: black;
+}
+
+#nav1 img {
+    width: 150px;
+    height: 150px;
+    text-align: left;
+}
+
+#body {
+    width: 300px;
+}
