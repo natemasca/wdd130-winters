@@ -10,6 +10,7 @@
 #nav1 a{
     padding: 40px;
     border-right-color: black;
+    text-align: center;
 }
 
 #nav1 img {
@@ -20,4 +21,12 @@
 
 #body {
     width: 300px;
+}
+
+#headerbox {
+    text-align: center;
+}
+
+#main p, h {
+    text-align: center;
 }
