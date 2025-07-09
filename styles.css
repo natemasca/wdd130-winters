@@ -16,17 +16,75 @@
 #nav1 img {
     width: 150px;
     height: 150px;
-    text-align: left;
+   
 }
 
-#body {
-    width: 300px;
+#main {
+    width: 10px;
 }
 
 #headerbox {
     text-align: center;
+    padding: 50px;
 }
 
-#main p, h {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  
+}
+
+
+.page {
+  background-color: #b0e0e6;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  max-width: 1300px;
+  width: 100%;
+  padding: 40px;
+}
+
+
+p1 {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Nunito";
+}
+
+h2 {
+    display: block;
     text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#headerbox {
+  background-color: #808080;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  font-family: "Parisienne";
+  text-size-adjust: 500px;
+  background-color: #00008B;
+}
+
+footer a {
+  padding: 40px;
+  border-right-color: black;
+  text-align: center;
+  color: white;
 }
