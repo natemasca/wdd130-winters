@@ -88,3 +88,38 @@ footer a {
   text-align: center;
   color: white;
 }
+
+/*CSS for the Chords Page Grid*/
+
+.chord-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.chord-item{
+    /* background-color: #f9f9f9; */
+    padding: 15px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    text-align: center;
+}
+
+.chord-item img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.chord-section p{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chord-section h1{
+    text-align: center;
+}
+
+/* CSS for the Chords Page End */
