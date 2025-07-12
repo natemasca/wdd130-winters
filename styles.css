@@ -178,3 +178,6 @@ footer a {
   max-height: 100%;
   justify-self: center;
 }
+h2, h1 {
+  text-align: center;
+}
