@@ -152,13 +152,17 @@ footer a {
 }
 
 .chord-section p{
-    text-align: center;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
+    margin-top: 20px;
+    text-align: justify;   
+    font-family: "Nunito", sans-serif;
+    line-height: 1.6;
 }
 
-.chord-section h1{
+.chord-section h2{
     text-align: center;
+    font-family: "Nunito", sans-serif;
 }
 
 /* CSS for the Chords Page End */
